@@ -1,0 +1,74 @@
+extends _base
+
+block content
+
+	section.blog
+		img.img-parallax(src="images/parallax.png")
+		div.row.top-xs.col-xs-12(style="padding: 0 30px; box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.68);")
+			div.title.col-xs-12.row.center-xs.middle-xs
+				h2 BLOG
+			div.content-blog.row.top-xs.col-xs-12.col-sm-9
+				div.col-xs-12.center-xs
+					img.shadow(src="images/shadow.png")
+				div.col-xs-12.col-sm-6
+					div.card.small
+						div.card-image
+							img(src="images/parallax.png")
+							span.scrollflow.-slide-right.-opacity.card-title(data-scrollflow-start="0", data-scrollflow-distance="20") DESARRLO WEB FORNT-END
+						div.card-content
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quidem saepe molestiae repudiandae, debitis omnis sint laudantium mollitia exercitationem nihil obcaecati esse neque assumenda numquam odit, suscipit dolorum! Consequatur, accusamus. lorem
+						div.card-action
+							a(href="blog-single.html") Leer más
+				div.col-xs-12.col-sm-6
+					div.card.small
+						div.card-image
+							img(src="images/parallax.png")
+							span.scrollflow.-slide-right.-opacity.card-title(data-scrollflow-start="0", data-scrollflow-distance="20") TUTORIAL- INSTALAON RUBY ON RAILS
+						div.card-content
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quidem saepe molestiae repudiandae, debitis omnis sint laudantium mollitia exercitationem nihil obcaecati esse neque assumenda numquam odit, suscipit dolorum! Consequatur, accusamus. lorem
+						div.card-action
+							a(href="#") Leer más
+				div.col-xs-12.col-sm-6
+					div.card.small
+						div.card-image
+							img(src="images/parallax.png")
+							span.scrollflow.-slide-right.-opacity.card-title(data-scrollflow-start="0", data-scrollflow-distance="20") QUE ES JADE?
+						div.card-content
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quidem saepe molestiae repudiandae, debitis omnis sint laudantium mollitia exercitationem nihil obcaecati esse neque assumenda numquam odit, suscipit dolorum! Consequatur, accusamus. lorem
+						div.card-action
+							a(href="#") Leer más
+				div.col-xs-12.col-sm-6
+					div.card.small
+						div.card-image
+							img(src="images/parallax.png")
+							span.scrollflow.-slide-right.-opacity.card-title(data-scrollflow-start="0", data-scrollflow-distance="20") SYLUS, LESS, SASS
+						div.card-content
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quidem saepe molestiae repudiandae, debitis omnis sint laudantium mollitia exercitationem nihil obcaecati esse neque assumenda numquam odit, suscipit dolorum! Consequatur, accusamus. lorem
+						div.card-action
+							a(href="#") Leer más
+				div.col-xs-12.center-xs(style="padding: 20px 0")
+					ul.pagination
+						li
+							a(href="#")
+								span.fa.fa-chevron-left
+						li.waves-effect
+							a(href="#") 1
+						li.active
+							a(href="#") 2
+						li.waves-effect
+							a(href="#") 3
+						li
+							a(href="#")
+								span.fa.fa-chevron-right
+			div.col-xs-12.col-sm-3
+				div.title-post-category.z-depth-2
+					h4 CATEGORIAS
+				div.content-post-category.z-depth-1
+					a(href="#") FRONT-END
+					a(href="#") PHP
+					a(href="#") LARAVEL
+					a(href="#") HTML
+					a(href="#") CSS
+					a(href="#") RUBY
+					a(href="#") RAILS
+	include _footer

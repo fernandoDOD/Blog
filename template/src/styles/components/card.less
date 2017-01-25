@@ -1,0 +1,182 @@
+.tarjeta{
+	margin:40px 0;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 100;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+//* Slide Banner *//
+
+.slider_banner{
+	overflow: hidden;
+	z-index: 100;
+	position: relative;
+	background: #fff;
+	.banner{
+		position: relative;
+		width: 100%;
+		img{
+			vertical-align: top;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 100%;
+		}
+	}
+
+	.flecha-banner{
+		font-size: 38px;
+		line-height: 35px;
+		color: rgba(255,255,255,.6);
+		position: absolute;
+		top: 50%;
+		z-index: 1100;
+		transition: all .5s;
+	&:hover{
+		color: rgba(255,255,255,1);
+	}
+	}
+
+	.anterior{
+		left: 20px;
+	}
+	.siguiente{
+		right: 20px;
+	}
+}
+
+//* Slide Info *//
+
+.slider_info{
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 0;
+	z-index: 100;
+	position: relative;
+	background: #fff;
+	.informacion{
+		width: 100%;
+		article{
+			width: 100%;
+			overflow: hidden;
+			position: relative;
+			.slide{
+				background: #fff;
+				width: 100%;
+				left: 100%;
+				padding: 20px 0;
+				position: absolute;
+			}
+		}
+		.nombre{
+			color: @color-gray;
+			font-size: 40px;
+			line-height: 1em;
+			font-weight: 600;
+			margin-bottom: 16px;
+		}
+		.trabajo{
+			color: @color-red;
+			font-size: 18px;
+			line-height: 1em;
+			margin-bottom: 12px;
+		}
+		.pais{
+			color: #2B55A1;
+			font-size: 16px;
+			font-weight: 600;
+			img{
+				position: relative;
+				top: 2px;
+				margin-right: 10px;
+			}
+		}
+
+		.subtitulo{
+			color: @color-gray;
+			font-size: 22px;
+			line-height: 1.2em;
+			margin-bottom: 12px;
+			font-weight: 600;
+		}
+		.slide{
+			p{
+				font-size: 16px;
+				text-align: justify;
+				padding: 0 60px;
+			}
+		}
+	}
+	.flecha-info{
+		font-size: 35px;
+		line-height: 35px;
+		color: @color-blue;
+		position: absolute;
+		top: 50%;
+		z-index: 100;
+		transition: all .5s;
+		&:hover{
+			color: @color-blue-light;
+		}
+	}
+	.anterior{
+		left: 20px;
+	}
+	.siguiente{
+		right: 20px;
+	}
+
+	.botones{
+		width: 100%;
+		span{
+			width: 15px;
+			height: 15px;
+			display: inline-block;
+			margin: 0 10px;
+			border-radius: 50%;
+			background: #e6e6e6;
+		}
+		.active{
+			background: @color-blue-light;
+		}
+	}
+}
+
+// Redes Sociales //
+
+.redes_sociales{
+	width: 100%;
+	text-align: center;
+	padding: 0px 5px;
+	background: #fff;
+	a{
+		display: inline-block;
+		width: 50px;
+		height: auto;
+		line-height: 20px;
+		padding: 15px 0;
+		color: #fff;
+		border-radius: 50%;
+		margin: 0 10px;
+		margin-bottom: 20px;
+	}
+	.bahance{background: #1769ff; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.linkedin{background: #0077b5; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.facebook{background: #3b5998; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.twitter{background: #55acee; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.youtube{background: #cd201f; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.whatsapp{background: #43d854; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+	.google{background: #dd4b39; transition: all .4s; opacity: .7; &:hover{opacity: 1; border-radius: 10%;}}
+
+}
+.blog-link{
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.26);
+	a{
+		color: #fff;
+	}
+}

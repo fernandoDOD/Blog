@@ -1,0 +1,77 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+canvas{
+  max-width: 100%;
+}
+body .vertical-centered-box {
+  position: absolute;
+  width: 100%;
+  height: 990px !important;
+  text-align: center;
+}
+body .vertical-centered-box .content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 0;
+}
+* {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+body {
+  background: #165685;
+}
+#particles-background,
+#particles-foreground {
+  width: 100%;
+  height: 990px !important;
+}
+@media only screen and (max-width: 700px) {
+  #particles-background,
+  #particles-foreground {
+    height: 750px !important;
+  }
+  body .vertical-centered-box {
+    height: 750px !important;
+  }
+}
+#particles-background {
+  background: rgba(0, 0, 0, 0.2);
+}
+lesshat-selector {
+  -lh-property: 0; }
+@-webkit-keyframes rotate{ 0% { -webkit-transform: rotate(0deg);} 100% { -webkit-transform: rotate(360deg);}}
+@-moz-keyframes rotate{ 0% { -moz-transform: rotate(0deg);} 100% { -moz-transform: rotate(360deg);}}
+@-o-keyframes rotate{ 0% { -o-transform: rotate(0deg);} 100% { -o-transform: rotate(360deg);}}
+@keyframes rotate{ 0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);} 100% {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}}
+[not-existing] {
+  zoom: 1;
+}
+lesshat-selector {
+  -lh-property: 0; }
+@-webkit-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+@-moz-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+@-o-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+@keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+[not-existing] {
+  zoom: 1;
+}
+lesshat-selector {
+  -lh-property: 0; }
+@-webkit-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+@-moz-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+@-o-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+@keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+[not-existing] {
+  zoom: 1;
+}
+
+

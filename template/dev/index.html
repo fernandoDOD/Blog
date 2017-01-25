@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fernando Vega</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link href="vendor/normalize.css" rel="stylesheet"/>
+    <link href="vendor/materialize/css/materialize.css" rel="stylesheet"/>
+    <link href="vendor/font-awesome/font-awesome.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <script src="vendor/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="btn-lateral-menu"><a href="#" data-activates="slide-out" class="button-collapse"><span class="fa fa-navicon"></span></a></div>
+    <div id="contenedor" class="contenedor">
+      <section class="tarjeta">
+        <section class="slider_banner">
+          <div id="banner" class="banner"><img src="images/bn1.jpg" alt="" class="slide active"/><img src="images/bn2.jpg" alt="" class="slide"/><img src="images/bn3.jpg" alt="" class="slide"/><img src="images/bn4.jpg" alt="" class="slide"/></div><a id="banner-prev" href="#" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a><a id="banner-next" href="#" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+        </section>
+        <section class="slider_info"><a id="info-prev" href="#" class="flecha-info anterior"><span class="fa fa-chevron-left"></span></a><a id="info-next" href="" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+          <section id="informacion" class="informacion">
+            <article id="info">
+              <div class="slide active">
+                <h1 class="nombre">Fernando Vega</h1>
+                <p class="trabajo">Desarrollador Web</p>
+                <p class="pais"><img src="images/bandera.png" alt=""/>Colombia</p>
+              </div>
+              <div class="slide">
+                <h2 class="subtitulo">Resumen</h2>
+                <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti quidem quasi, excepturi aperiam ratione ducimus nostrum esse porro, commodi dicta asperiores, nemo! Quis doloribus consequuntur, veritatis suscipit, fuga a.</p>
+              </div>
+              <div class="slide">
+                <h2 class="subtitulo">Experiencia</h2>
+                <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti quidem quasi, excepturi aperiam ratione ducimus nostrum esse porro, commodi dicta asperiores, nemo! Quis doloribus consequuntur, veritatis suscipit, fuga a.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo fugiat ipsam laboriosam amet consectetur a quod nihil, odio quaerat quas adipisci eveniet in animi cum enim, possimus nisi, ab rem</p>
+              </div>
+            </article>
+            <div id="botones" class="botones"></div>
+          </section>
+        </section>
+        <section class="redes_sociales"><a href="#" class="linkedin"><span class="fa fa-linkedin"></span></a><a href="#" class="facebook"><span class="fa fa-facebook"></span></a><a href="#" class="twitter"><span class="fa fa-twitter"></span></a><a href="#" class="google"><span class="fa fa-google-plus"></span></a><a href="#" class="whatsapp"><span class="fa fa-whatsapp">                       </span></a><a href="#" class="youtube"><span class="fa fa-youtube"></span></a></section>
+        <section class="blog-link"><a href="blog.html">
+            <h4>INGRESA A MI BLOG</h4></a></section>
+      </section>
+    </div>
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="userView"><img src="images/pattern.png" class="background"/><a href="index.html"><img src="images/perfil.png" class="circle"/></a><a href="#nombre"><span class="white-text name">Fernando Vega</span></a><a href="#email"><span class="white-text email">fernando.vega@siasoftware.com</span></a></div>
+      </li>
+      <li><a href="index.html" class="fa fa-laptop"> <span>Perfil</span></a></li>
+      <li><a href="blog.html" class="fa fa-pencil-square-o"> <span>Blog</span></a></li>
+    </ul>
+    <script src="vendor/materialize/js/materialize.min.js"></script>
+    <script src="vendor/scrollflow/eskju.jquery.scrollflow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

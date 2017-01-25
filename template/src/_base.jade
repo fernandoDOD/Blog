@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible",content="IE=edge")
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+        title Fernando Vega
+
+        link(rel="shortcut icon",href="images/favicon.ico",type="image/x-icon")
+        link(rel="icon",href="images/favicon.ico",type="image/x-icon")
+
+        link(href="vendor/normalize.css",rel="stylesheet")
+        link(href="vendor/materialize/css/materialize.css",rel="stylesheet")
+        link(href="vendor/font-awesome/font-awesome.css",rel="stylesheet")
+        link(href="css/main.css",rel="stylesheet")
+
+        script(src="vendor/jquery.min.js")
+    body
+        div.btn-lateral-menu
+            a.button-collapse(href="#", data-activates="slide-out")
+                span.fa.fa-navicon
+        block content
+        ul#slide-out.side-nav
+            li
+                div.userView
+                    img.background(src="images/pattern.png")
+                    a(href="index.html")
+                        img.circle(src="images/perfil.png")
+                    a(href="#nombre")
+                        span.white-text.name Fernando Vega
+                    a(href="#email")
+                        span.white-text.email fernando.vega@siasoftware.com
+            li
+                a.fa.fa-laptop(href="index.html") 
+                    span Perfil
+            li
+                a.fa.fa-pencil-square-o(href="blog.html") 
+                    span Blog
+
+        script(src="vendor/materialize/js/materialize.min.js")
+        script(src="vendor/scrollflow/eskju.jquery.scrollflow.min.js")
+        script(src="js/main.js")

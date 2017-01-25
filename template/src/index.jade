@@ -1,0 +1,53 @@
+extends _base
+
+block content
+    div#contenedor.contenedor
+        section.tarjeta
+            section.slider_banner
+                div#banner.banner
+                    img.slide.active(src="images/bn1.jpg", alt="")
+                    img.slide(src="images/bn2.jpg", alt="")
+                    img.slide(src="images/bn3.jpg", alt="")
+                    img.slide(src="images/bn4.jpg", alt="")
+                a#banner-prev.flecha-banner.anterior(href="#")
+                    span.fa.fa-chevron-left
+                a#banner-next.flecha-banner.siguiente(href="#")
+                    span.fa.fa-chevron-right
+            section.slider_info
+                a#info-prev.flecha-info.anterior(href="#")
+                    span.fa.fa-chevron-left
+                a#info-next.flecha-info.siguiente(href="")
+                    span.fa.fa-chevron-right
+                section#informacion.informacion
+                    article#info
+                        div.slide.active
+                            h1.nombre Fernando Vega
+                            p.trabajo Desarrollador Web
+                            p.pais
+                                img(src="images/bandera.png", alt="") 
+                                | Colombia
+                        div.slide
+                             h2.subtitulo Resumen
+                             p.texto  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti quidem quasi, excepturi aperiam ratione ducimus nostrum esse porro, commodi dicta asperiores, nemo! Quis doloribus consequuntur, veritatis suscipit, fuga a.
+                        div.slide
+                            h2.subtitulo Experiencia
+                            p.texto  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti quidem quasi, excepturi aperiam ratione ducimus nostrum esse porro, commodi dicta asperiores, nemo! Quis doloribus consequuntur, veritatis suscipit, fuga a.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo fugiat ipsam laboriosam amet consectetur a quod nihil, odio quaerat quas adipisci eveniet in animi cum enim, possimus nisi, ab rem
+                    div#botones.botones
+            section.redes_sociales
+                a.linkedin(href="#")
+                    span.fa.fa-linkedin
+                a.facebook(href="#")
+                    span.fa.fa-facebook
+                a.twitter(href="#")
+                    span.fa.fa-twitter
+                a.google(href="#")
+                    span.fa.fa-google-plus
+                a.whatsapp(href="#")
+                    span.fa.fa-whatsapp                        
+                a.youtube(href="#")
+                    span.fa.fa-youtube
+            section.blog-link
+                a(href="blog.html")
+                    h4 INGRESA A MI BLOG
+            
+           
